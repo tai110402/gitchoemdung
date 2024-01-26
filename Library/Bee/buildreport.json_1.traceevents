@@ -1,0 +1,564 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1676262120418723, "dur": 3314258, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676262120419075, "dur": 4168, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676262120423245, "dur": 49629, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676262120472877, "dur": 845941, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676262121318820, "dur": 2410572, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676262123729395, "dur": 3585, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676262123734197, "dur": 19, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1676262121075485, "dur": 225143, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676262121076790, "dur": 53764, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676262121277707, "dur": 6843, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676262121284557, "dur": 16050, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676262121285559, "dur": 14179, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676262121307790, "dur": 1743, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676262121306526, "dur": 3054, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676262123734350, "dur": 199, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1676262121388200, "dur":1211, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262121389427, "dur":123, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676262121389607, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676262121389627, "dur":596, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676262121390281, "dur":964, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262121391245, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713430, "dur":305, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713735, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713750, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713753, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713764, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713766, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713774, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713777, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713786, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713787, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713796, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713798, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713806, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713807, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713816, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713819, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713825, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123713849, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123714023, "dur":2093, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676262121390977, "dur":275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262121391255, "dur":8849, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262121400125, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676262121400137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262121401833, "dur":590, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676262121402435, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676262121402495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262121402969, "dur":17423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676262121420394, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1676262121420446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262121420576, "dur":94142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1676262121514855, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1676262121515041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262121515055, "dur":4941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1676262121520030, "dur":99414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262121619453, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262121620001, "dur":13719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262121633760, "dur":37315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262121671086, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262121671546, "dur":3483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262121675093, "dur":87002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262121762112, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262121762142, "dur":3361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262121765537, "dur":96298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262121861843, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262121861860, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262121864034, "dur":47512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262121911582, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262121911598, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262121913717, "dur":233464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122147188, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262122147205, "dur":3127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122150359, "dur":62740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122213106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262122213121, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122215095, "dur":207300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122422404, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262122422425, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122424695, "dur":117600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122542302, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262122542319, "dur":2901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122545253, "dur":81579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122626839, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262122626866, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122628755, "dur":54097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122682859, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262122682873, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122684696, "dur":43222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122727926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262122727940, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122729551, "dur":134848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122864404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262122864416, "dur":6469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122870919, "dur":62677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122933605, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262122933621, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262122935349, "dur":76158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262123011515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262123011530, "dur":1992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262123013551, "dur":63587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262123077174, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262123077188, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262123079131, "dur":56239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262123135377, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262123135392, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262123137217, "dur":71924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262123209151, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262123209168, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262123211339, "dur":496588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262123707934, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676262123707948, "dur":5427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676262123713401, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1676262123713404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262121391123, "dur":150, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262121391274, "dur":8838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262121400125, "dur":17628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1676262121417762, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262121417792, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1676262121420344, "dur":12834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1676262121433187, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262121433211, "dur":80657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1676262121513897, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676262121513946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262121513960, "dur":456138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676262121970137, "dur":91288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122061434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262122061448, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122063540, "dur":113028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122176576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262122176592, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122178442, "dur":43199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122221650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262122221665, "dur":5579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122227281, "dur":34172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122261461, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262122261476, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122263587, "dur":31058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122294654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262122294671, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122296412, "dur":30251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122326702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262122326715, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122328530, "dur":108349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122436891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262122436938, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122439188, "dur":37953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122477148, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262122477163, "dur":2000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122479194, "dur":40145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122519348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262122519363, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122521075, "dur":211744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122732825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262122732836, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122734428, "dur":75415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122809850, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262122809864, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262122811414, "dur":236991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262123048413, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262123048430, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262123051366, "dur":177433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262123228808, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262123228825, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262123231541, "dur":373122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262123604670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676262123604683, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676262123606749, "dur":106685, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262121391069, "dur":191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262121391260, "dur":8851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262121400126, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1676262121400261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262121410682, "dur":103005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1676262121513720, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1676262121513777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262121513790, "dur":21622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1676262121535483, "dur":132197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1676262121667687, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262121667699, "dur":3910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1676262121671667, "dur":45613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262121717332, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262121717347, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262121719604, "dur":45779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262121765391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262121765406, "dur":2720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262121768167, "dur":53192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262121821368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262121821383, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262121823649, "dur":67091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262121890749, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262121890770, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262121892752, "dur":148341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122041102, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262122041117, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122043282, "dur":130982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122174269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262122174282, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122176216, "dur":33061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122209289, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262122209310, "dur":2415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122211822, "dur":32495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122244333, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262122244350, "dur":1937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122246329, "dur":30010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122276346, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262122276362, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122278447, "dur":55158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122333613, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262122333631, "dur":5162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122338822, "dur":32726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122371556, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262122371571, "dur":2102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122373708, "dur":58053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122431769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262122431782, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122433419, "dur":67636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122501064, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262122501081, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122503449, "dur":81304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122584761, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262122584776, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122586842, "dur":47730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122634579, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262122634622, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122636223, "dur":96247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122732479, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262122732495, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262122734386, "dur":354743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262123089136, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262123089151, "dur":5067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262123094246, "dur":184013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262123278300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262123278314, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676262123281346, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1676262123281646, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262123281669, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1676262123283822, "dur":11612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1676262123295439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676262123295448, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1676262123297088, "dur":416342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262121391108, "dur":158, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262121391266, "dur":8843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262121400125, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1676262121400242, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262121404388, "dur":16067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1676262121420487, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1676262121420585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262121420597, "dur":447615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1676262121868248, "dur":143523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122011780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262122011794, "dur":3372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122015200, "dur":42914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122058127, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262122058163, "dur":28615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122086812, "dur":78412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122165232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262122165247, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122167918, "dur":82714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122250640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262122250655, "dur":1913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122252598, "dur":70337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122322967, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262122322988, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122325625, "dur":59241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122384873, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262122384888, "dur":2948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122387874, "dur":41411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122429292, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262122429342, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122431211, "dur":43067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122474317, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262122474331, "dur":1815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122476187, "dur":35683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122511878, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262122511893, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122513816, "dur":67866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122581689, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262122581703, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122583785, "dur":368633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122952428, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262122952451, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262122955185, "dur":297855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262123253048, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262123253064, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676262123255521, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1676262123255547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262123255634, "dur":2412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1676262123258087, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676262123258115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676262123258130, "dur":89080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676262123347238, "dur":366199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262121391171, "dur":108, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262121391279, "dur":8828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262121400126, "dur":45004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1676262121445139, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262121513113, "dur":5474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1676262121518775, "dur":103414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262121622201, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262121622473, "dur":3327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262121625846, "dur":79840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262121705695, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262121705717, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262121707913, "dur":71641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262121779564, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262121779579, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262121781740, "dur":216797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262121998545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262121998592, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122000918, "dur":146585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122147510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262122147523, "dur":5816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122153388, "dur":59466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122212862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262122212878, "dur":4303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122217214, "dur":51378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122268600, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262122268616, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122270766, "dur":61598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122332372, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262122332387, "dur":7076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122339500, "dur":75245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122414754, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262122414770, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122416598, "dur":52436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122469043, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262122469059, "dur":2567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122471656, "dur":37833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122509497, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262122509512, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122511426, "dur":34238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122545670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262122545683, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122547413, "dur":40406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122587826, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262122587840, "dur":2729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122590596, "dur":35518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122626121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262122626135, "dur":2578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122628762, "dur":34048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122662818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262122662831, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122665062, "dur":37263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122702333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262122702348, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122704381, "dur":147865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122852253, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262122852368, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122854167, "dur":137558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122991734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262122991748, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262122993871, "dur":287436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262123281313, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262123281332, "dur":6207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676262123287574, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1676262123287612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262123287632, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1676262123289789, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1676262123289811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262123289822, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1676262123293080, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1676262123293105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262123293118, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1676262123295291, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1676262123295436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676262123295447, "dur":1626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1676262123297099, "dur":416333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262121391229, "dur":58, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262121391287, "dur":8855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262121400142, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1676262121400236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262121404351, "dur":16074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1676262121420456, "dur":13425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1676262121433890, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262121433909, "dur":80876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1676262121514826, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1676262121514914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262121514931, "dur":16025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1676262121530994, "dur":219400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262121750405, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262121750425, "dur":47686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262121798144, "dur":36781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262121835034, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262121835049, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262121837024, "dur":99189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262121936221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262121936242, "dur":2751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262121939028, "dur":44069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262121983106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262121983121, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262121985182, "dur":206197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122191388, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262122191402, "dur":4048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122196641, "dur":28951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122225601, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262122225618, "dur":4465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122230122, "dur":149095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122379252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262122379267, "dur":3288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122382591, "dur":34327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122416924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262122416937, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122418683, "dur":31933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122450624, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262122450639, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122452222, "dur":33490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122485720, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262122485734, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122488137, "dur":74787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122562933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262122562947, "dur":1899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122564877, "dur":126230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122691115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262122691128, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122693415, "dur":32239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122725663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262122725678, "dur":2292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122728011, "dur":42843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122770861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262122770874, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122772826, "dur":125616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122898450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262122898463, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262122900433, "dur":166219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262123066660, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262123066675, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262123068575, "dur":182875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262123251492, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262123251508, "dur":2147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676262123253683, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1676262123253829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262123254421, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1676262123255904, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1676262123256007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262123256020, "dur":21746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1676262123277800, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676262123277822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262123277833, "dur":16347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676262123294206, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1676262123294232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676262123294246, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1676262123296104, "dur":417327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262121391282, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262121391283, "dur":8827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262121400125, "dur":14797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1676262121414931, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262121414971, "dur":5338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1676262121420705, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1676262121420776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262121421911, "dur":7910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1676262121429858, "dur":12547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1676262121442416, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262121442642, "dur":71087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1676262121513758, "dur":26766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1676262121540570, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262121540591, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1676262121542813, "dur":843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity.exe" }}
+,{ "pid":12345, "tid":7, "ts":1676262121543665, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262121543679, "dur":3102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity.exe" }}
+,{ "pid":12345, "tid":7, "ts":1676262121546816, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1676262121546888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262121547366, "dur":28642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1676262121576053, "dur":120681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262121696743, "dur":280, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262121698877, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262121700895, "dur":86708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262121787629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262121787650, "dur":4115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262121791814, "dur":40455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262121832277, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262121832293, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262121834520, "dur":35754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262121870284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262121870301, "dur":3033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262121873370, "dur":53107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262121926484, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262121926499, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262121928425, "dur":306126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122234559, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262122234575, "dur":3440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122238054, "dur":56906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122294966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262122294978, "dur":7199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122302215, "dur":72874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122375097, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262122375116, "dur":4173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122379318, "dur":141421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122520748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262122520762, "dur":2293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122523094, "dur":64215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122587316, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262122587330, "dur":2804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122590167, "dur":73683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122663858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262122663872, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122666915, "dur":51153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122718076, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262122718091, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122719933, "dur":142280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122862221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262122862235, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122864044, "dur":112487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122976575, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262122976592, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262122979093, "dur":366874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262123345975, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676262123345990, "dur":6519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676262123352542, "dur":360911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262121391333, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262121391334, "dur":8779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262121400126, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1676262121400267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262121410942, "dur":416258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1676262121827235, "dur":48180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262121875424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262121875438, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262121877443, "dur":68674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262121946124, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262121946139, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262121947853, "dur":101120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122048982, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262122048997, "dur":4048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122053092, "dur":118858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122171958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262122171974, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122174228, "dur":114021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122288258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262122288272, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122290180, "dur":81894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122372082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262122372096, "dur":3516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122375655, "dur":76987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122452650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262122452666, "dur":2814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122455516, "dur":182887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122638411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262122638425, "dur":3718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122642173, "dur":28190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122670373, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262122670390, "dur":2352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122672773, "dur":34331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122707113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262122707129, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122709111, "dur":62087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122771203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262122771214, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262122773037, "dur":241269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262123014315, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262123014329, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262123016806, "dur":213042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262123229859, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262123229878, "dur":11885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262123241807, "dur":108616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262123350431, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676262123350448, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/OneDrive/Tai liu/zombie test 1322023/GameUnity_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676262123352556, "dur":360891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676262123718548, "dur":5239, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676262123734601, "dur": 887, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676262123734177, "dur": 1342, "ph": "X", "name": "Write chrome-trace events", "args": {} },
